@@ -27,3 +27,17 @@ Cryptography is a technique of securing information and communications through t
 - For the given two points, (x1, y1) and (x2, y2) we can find a linear polynomial ax + by = c.
 - Similarly, for the given three points, we can find a quadratic polynomial ax2 + bx + cy = d.
 - So, the idea is to build a polynomial with the degree (K – 1) such that the constant term is the secret code and the remaining numbers are random and this constant term can be found by using any K points out of N points generated from this polynomial by using Legrange’s Basis Polynomial. 
+
+Let the secret code S = 65, N = 4, K = 2. 
+ 
+Initially, in order to encrypt the secret code, we build a polynomial of degree (K – 1).
+Therefore, let the polynomial be y = a + bx. Here, the constant part ‘a’ is our secret code.
+Let b be any random number, say b = 15.
+Therefore, for this polynomial y = 65 + 15x, we generate N = 4 points from it.
+Let those 4 points be (1, 80), (2, 95), (3, 110), (4, 125). Clearly, we can generate the initial polynomial from any two of these 4 points and in the resulting polynomial, the constant term a is the required secret code.
+In order to reconstruct the given polynomial back, the Lagrange basis Polynomial is used. 
+The main concept behind the Lagrange polynomial is to form the Lagrange’s identities first and the summation of these identities give us the required function which we need to find from the given points. The following equations show how to compute them: 
+
+![math4](https://user-images.githubusercontent.com/86551444/152485384-366377f4-eefd-4fc2-b6b3-a67adec2ae4c.png)
+
+
