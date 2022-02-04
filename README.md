@@ -41,3 +41,8 @@ The main concept behind the Lagrange polynomial is to form the Lagrange’s iden
 ![math4](https://user-images.githubusercontent.com/86551444/152485384-366377f4-eefd-4fc2-b6b3-a67adec2ae4c.png)
 
 
+For example, let’s say we wish to compute the given equation by using K = 2 points from the selected four points- (1, 80), (3, 110). The following illustration shows the step by step solution for this: 
+
+![math3](https://user-images.githubusercontent.com/86551444/152485536-62c93608-145b-433c-bd75-da5d19813cd5.png)
+
+
