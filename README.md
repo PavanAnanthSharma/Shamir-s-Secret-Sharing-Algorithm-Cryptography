@@ -47,6 +47,17 @@ For example, let’s say we wish to compute the given equation by using K = 2 po
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Expected output
+```Secret is divided to 4 Parts - 
+1 602
+2 1139
+3 1676
+4 2213
+We can generate Secret from any of 2 Parts
+Our Secret Code is : 65
+```
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 > The implimentation of this can be found in the ``` SSSA.cpp``` file.
 
 > Thankyou!!!
