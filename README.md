@@ -22,3 +22,8 @@ Cryptography is a technique of securing information and communications through t
 >*Approach: The main idea behind the Shamir’s Secret Sharing Algorithm lies behind the concept that for the given K points we can find a polynomial equation with the degree (K – 1).*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Example
+
+- For the given two points, (x1, y1) and (x2, y2) we can find a linear polynomial ax + by = c.
+- Similarly, for the given three points, we can find a quadratic polynomial ax2 + bx + cy = d.
+- So, the idea is to build a polynomial with the degree (K – 1) such that the constant term is the secret code and the remaining numbers are random and this constant term can be found by using any K points out of N points generated from this polynomial by using Legrange’s Basis Polynomial. 
