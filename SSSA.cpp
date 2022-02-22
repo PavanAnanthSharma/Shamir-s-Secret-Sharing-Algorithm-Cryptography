@@ -9,7 +9,7 @@ using namespace std;
 // y = poly[0] + x*poly[1] + x^2*poly[2] + ...
 int calculate_Y(int x, vector<int>& poly) 
 {
-	// Initializing y
+	// Initializing y 
 	int y = 0;
 	int temp = 1;
 
